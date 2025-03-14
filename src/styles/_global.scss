@@ -1,0 +1,62 @@
+@use 'fonts';
+@use 'utils/color';
+
+
+body {
+  background-color: var(--primary-black);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Evolventa-Bold;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 130%;
+}
+
+p {
+  font-family: Evolventa-Regular;
+  color: var(--white);
+}
+
+.p1 {
+
+  font-size: 1.25rem;
+  line-height: 140%;
+}
+
+.p1 {
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.main-fond {
+  font-family: Evolventa-Regular;
+}
+
+.main-fond-bold {
+  font-family: Evolventa-Bold;
+}

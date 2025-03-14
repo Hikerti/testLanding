@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "./utils/_color.scss";
+
+@theme {
+    --color-primary-black: #252623;
+    --color-primary-accent: #BFF764;
+
+    --color-red-accent: #FF8058;
+    --color-white: #fff;
+
+    --color-gray-gradient: #4B4C49;
+    --color-black-gradient: #21221E;
+
+    --color-gray-text: #8D9188;
+}

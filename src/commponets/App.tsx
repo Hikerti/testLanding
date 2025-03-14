@@ -1,4 +1,3 @@
-import '../styles/App.scss'
 import {Routes, Route} from "react-router-dom";
 import Layout from "./MainComponets/Layout.tsx";
 import Home from "./Pages/Home.tsx";
@@ -11,8 +10,9 @@ function NotFound() {
 const App: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<Layout/>} />
-      <Route index element={<Home />} />
+      <Route path="/" element={<Layout/>}>
+        <Route path="/" element={<Home />} />
+      </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
   )
