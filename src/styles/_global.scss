@@ -1,7 +1,6 @@
 @use 'fonts';
 @use 'utils/color';
 
-
 body {
   background-color: var(--primary-black);
 }
@@ -9,7 +8,6 @@ body {
 #root {
   display: flex;
   justify-content: center;
-  min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,6 +40,10 @@ p {
   color: var(--white);
 }
 
+span {
+  line-height: 100%;
+}
+
 .p1 {
 
   font-size: 1.25rem;
@@ -59,4 +61,13 @@ p {
 
 .main-fond-bold {
   font-family: Evolventa-Bold;
+}
+
+.background-gradient {
+  background: linear-gradient(to bottom, #4B4C49, #21221E);
+}
+
+.border-gradient {
+  border-image: linear-gradient(to bottom, #4B4C49, #21221E);
+  border: 1px solid;
 }
