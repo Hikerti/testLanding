@@ -1,8 +1,10 @@
 @use 'fonts';
-@use 'utils/color';
+@use 'utils' as *;
 
 body {
   background-color: var(--primary-black);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 #root {
@@ -16,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  @include fluid-text(34, 20);
   font-size: 3.5rem;
   line-height: 110%;
 }
@@ -68,6 +71,7 @@ span {
 }
 
 .border-gradient {
-  border-image: linear-gradient(to bottom, #4B4C49, #21221E);
-  border: 1px solid;
+  border: 2px solid transparent;
+  background: linear-gradient(#252623, #252623 0) padding-box,
+  linear-gradient(to bottom, #4B4C49, #21221E) border-box;
 }

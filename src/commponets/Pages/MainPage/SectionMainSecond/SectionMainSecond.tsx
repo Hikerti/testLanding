@@ -8,7 +8,7 @@ const SectionMainFirst: React.FC = () => {
         <>
             <section className='flex flex-col justify-between'>
                 <div className='flex flex-col justify-between gap-15'>
-                    <div className='flex h-[460px] gap-6'>
+                    <div className='flex h-full gap-6'>
                         <TextContent/>
                         <Menu/>
                     </div>

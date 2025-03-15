@@ -1,2 +1,5 @@
-@use './color';
-@use './normalize';
+@forward './color';
+@forward './normalize';
+@forward './functions';
+@forward './media';
+@forward './mixins';
