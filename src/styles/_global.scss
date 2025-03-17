@@ -72,3 +72,27 @@ p {
   background: linear-gradient(#252623, #252623 0) padding-box,
   linear-gradient(to bottom, #4B4C49, #21221E) border-box;
 }
+
+.animation__circle {
+    animation: circle 6s ease-in-out infinite;
+}
+
+@keyframes circle {
+  0% {
+      transform: translateY(0);
+  }
+  40%
+  {
+    opacity: 0;
+    transform: translateY(-1000px);
+  }
+  60%
+  {
+    opacity: 0;
+    transform: translateY(1000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

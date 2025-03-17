@@ -31,6 +31,7 @@ export interface CurcleLanguageProps {
     children?: ReactNode;
     size?: string;
     position?: string;
+    delay?: string;
 }
 
 export interface RhombusProps {
