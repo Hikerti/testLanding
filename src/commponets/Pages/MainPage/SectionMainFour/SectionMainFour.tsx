@@ -1,8 +1,8 @@
 import * as React from "react";
 import Card from "../../../UI/MainPageUI/Card.tsx";
-import Button from "../../../UI/Buttons/Button.tsx";
 import BeginerIcon from "../../../../images/icon/MainPageIcon/beginericon.svg"
 import ExperienceIcon from "../../../../images/icon/MainPageIcon/experienceicon.svg"
+import ButtonBlack from "../../../UI/Buttons/ButtonBlack.tsx";
 
 const SectionMainFour: React.FC = () => {
     return (
@@ -29,7 +29,7 @@ const SectionMainFour: React.FC = () => {
                                     <span className='w-full h-[1px] bg-primary-black'></span>
                                     <p className='!text-primary-black main-fond-bold'>100% постоплата от оффера</p>
                                 </div>
-                                <Button className='background-gradient'>СВЯЗАТЬСЯ СО МНОЙ</Button>
+                                <ButtonBlack color='text-white'>СВЯЗАТЬСЯ СО МНОЙ</ButtonBlack>
                             </div>
                         </Card>
                         <Card className=' bg-primary-accent px-5 py-10'>
@@ -47,7 +47,7 @@ const SectionMainFour: React.FC = () => {
                                     <span className='w-full h-[1px] bg-primary-black'></span>
                                     <p className='!text-primary-black main-fond-bold'>100% постоплата от оффера</p>
                                 </div>
-                                <Button className='background-gradient' color='text-white'>СВЯЗАТЬСЯ СО МНОЙ</Button>
+                                <ButtonBlack color='text-white'>СВЯЗАТЬСЯ СО МНОЙ</ButtonBlack>
                             </div>
                         </Card>
                     </div>

@@ -26,6 +26,7 @@ h1 {
 h2 {
   font-size: 3rem;
   line-height: 120%;
+  color: var(--primary-accent);
 }
 
 h3 {
@@ -41,10 +42,6 @@ h4 {
 p {
   font-family: Evolventa-Regular;
   color: var(--white);
-}
-
-span {
-  line-height: 100%;
 }
 
 .p1 {

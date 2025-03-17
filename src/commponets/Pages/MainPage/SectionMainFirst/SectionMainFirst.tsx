@@ -17,7 +17,7 @@ const SectionMainFirst = () => {
                     </p>
                     <Button color='!text-primary-black'>СВЯЗАТЬСЯ СО МНОЙ</Button>
                 </div>
-                <div className='relative flex w-[45%] h-full'>
+                <div className='relative flex w-[45%] h-full z-[-1]'>
                     <CurcleLanguage size='w-[148px] h-[148px]' position='left-[calc(50%-74px)] bottom-[36px]'>REDUX</CurcleLanguage>
                     <CurcleLanguage size='w-[160px] h-[160px]' position='bottom-[227px]'>TYPESCRIPT</CurcleLanguage>
                     <CurcleLanguage size='w-[114px] h-[114px]' position='right-[32px] bottom-[295px]'>CSS</CurcleLanguage>

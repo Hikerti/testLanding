@@ -23,7 +23,7 @@ const ElementStep: React.FC<ElementStepProps> = ({number, title, sidetitle}) => 
                         </h4>
                     </div>
                     <button
-                        className='text-primary-accent main-fond cursor-pointer mb-[20px]'
+                        className='text-primary-accent main-fond cursor-pointer mb-[20px] hover:text-[#97CF3C] transition-colors duration-200'
                     >
                         УЗНАТЬ БОЛЬШЕ
                     </button>

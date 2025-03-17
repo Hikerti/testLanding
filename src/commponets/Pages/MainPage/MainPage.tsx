@@ -5,6 +5,7 @@ import SectionMainThird from "./SectionMainThirt/SectionMainThird.tsx";
 import SectionMainFour from "./SectionMainFour/SectionMainFour.tsx";
 import SectionMainFive from "./SectionMainFive/SectionMainFive.tsx";
 import SectionMainSeven from "./SectionMainSeven/SectionMainSeven.tsx";
+import SectionMainSix from "./SectionMainSix/SectionMainSix.tsx";
 
 const MainPage: React.FC = () => {
     return (
@@ -14,6 +15,7 @@ const MainPage: React.FC = () => {
             <SectionMainThird/>
             <SectionMainFour/>
             <SectionMainFive/>
+            <SectionMainSix/>
             <SectionMainSeven/>
         </>
     );

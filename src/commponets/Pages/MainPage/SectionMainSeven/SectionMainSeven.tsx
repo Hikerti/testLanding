@@ -42,9 +42,9 @@ const SectionMainSeven: React.FC = () => {
                         <p>Ты также можешь оставить свой отзыв после нашего сотрудничества</p>
                         <ButtonGreen color='!text-primary-accent'>СМОТРЕТЬ ВСЕ ОТЗЫВЫ</ButtonGreen>
                     </div>
-                    <div className='relative w-1/2 h-full'>
+                    <div className='relative w-1/2 flex-1'>
                         <img
-                            className='absolute top-[-200px]'
+                            className='absolute bottom-[-80px]'
                             src={Phone}
                             alt="Phone"/>
                     </div>

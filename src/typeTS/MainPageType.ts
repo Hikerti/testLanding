@@ -33,6 +33,14 @@ export interface CurcleLanguageProps {
     position?: string;
 }
 
+export interface RhombusProps {
+    children?: ReactNode;
+    position?: string;
+    positionline?: string;
+    border?: string;
+    afterposition?: string;
+}
+
 export interface CircleProps {
     colorBG?: boolean;
     border?: boolean;
